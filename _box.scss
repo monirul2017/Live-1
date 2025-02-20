@@ -1,0 +1,160 @@
+// #box {
+//     width: 100%;
+//     background-color: #FFD143;
+//     padding: 20px 0;
+//     border-radius: 3px;
+
+//     .inner {
+//         width: 60%;
+//         margin: 0 auto;
+//         padding: 13px 0;
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+
+//         h3 {
+//             color: #1B2A00;
+//             text-transform: capitalize;
+//             font-weight: 600;
+//             line-height: 16px;
+//             font-size: 24px;
+//         }
+
+//         button {
+//             width: 120px;
+//             background-color: #1B2B00;
+//             padding: 5px 4px;
+//             color: #FFFFFF;
+//             text-transform: capitalize;
+//             border-top-left-radius: 60px;
+//             border-bottom-right-radius: 60px;
+//             font-size: 17px;
+//         }
+//     }
+
+//     @media screen and (max-width: 1080px) {
+//         .inner {
+//             width: 80%; /* Increase width on smaller screens */
+//             flex-direction: column; /* Stack items vertically */
+//             align-items: center; /* Center align content */
+//             padding: 10px 0;
+//         }
+
+//         h3 {
+//             font-size: 22px; /* Smaller font size for h3 */
+//             text-align: center; /* Center-align the heading */
+//         }
+
+//         button {
+//             width: 100%; /* Make button take full width */
+//             padding: 10px 0; /* Adjust padding */
+//             margin-top: 10px; /* Add spacing between button and heading */
+//             font-size: 16px; /* Adjust font size */
+//         }
+//     }
+    
+//     @media screen and (max-width: 768px) {
+//         .inner {
+//             width: 90%; /* Even more responsive on smaller screens */
+//             padding: 8px 0;
+//         }
+
+//         h3 {
+//             font-size: 18px; /* Further reduce font size for small screens */
+//         }
+
+//         button {
+//             font-size: 15px; /* Reduce button font size */
+//         }
+//     }
+// }
+
+
+#box{
+    width: 100%;
+    background: #FFD143;
+    padding: 20px 0;
+
+    .inner{
+        width: 60%;
+        margin: auto;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        h3{
+            font-size: 25px;
+            text-transform: capitalize;
+            color: #1B2A00;
+        }
+
+        button{
+            padding: 10px 20px;
+            background-color: #1B2B00;
+            color: #FFFFFF;
+            text-transform: capitalize;
+            border-top-left-radius: 60px;
+            border-bottom-right-radius: 60px;
+        }
+
+
+  
+    }
+
+    @media screen and (max-width:1380px){
+        .inner{
+           h3{
+             font-size: 22px;
+           }
+
+           button{
+            padding: 5px 10px;
+           }
+        }
+    }
+
+
+    @media screen and (max-width:1212px){
+        .inner{
+         flex-direction: column;
+         justify-content: center;
+
+         h3{
+            font-size: 20px;
+            text-align: center;
+         }
+         button{
+            margin-top: 10px;
+         }
+        }
+    }
+
+
+    @media screen and (max-width:620px){
+        .inner{
+         flex-direction: column;
+         justify-content: center;
+
+         h3{
+            font-size: 17px;
+            text-align: center;
+         }
+         button{
+            margin-top: 10px;
+         }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
