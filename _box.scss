@@ -28,7 +28,6 @@
   }
 
 
-
   .inner {
     width: 75%;
     padding: 8px 0;
@@ -54,7 +53,6 @@
     font-size: 19px;
     line-height: 22px;
     text-transform: capitalize;
-    // box-shadow: 0px 3px 2px red;
     cursor: pointer;
   }
 
@@ -102,11 +100,6 @@
       font-size: 16px;
     }
 
-    
-  // .cross-icon {
-  //   visibility: hidden;
-  // }
-
   }
 
   @media screen and (max-width: 720px) {
@@ -131,7 +124,6 @@
 
 #box2 {
   @include mixer(#bf43ff, "../img/Group2.png");
-  // position: relative;
 
   h3 {
     color: #ffffff;
@@ -149,7 +141,6 @@
 
 #box3 {
   @include mixer(#d6ff8c, "../img/Group3.png");
-  // position: relative;
 
   h3 {
     color: #03520b;
@@ -167,7 +158,6 @@
 
 #box4 {
   @include mixer(#8ccbff,"../img/Group4.png");
-  // position: relative;
 
   h3 {
     color: #030b52;
@@ -193,8 +183,6 @@
     border: none;
     font-weight: 400;
     padding: 10px 31px;
-    // box-shadow: 4px 4px #507AFF;
-    // border: 1px solid #507AFF;
     outline: #d6ff8c;
     transition: 0.5s;
   }
